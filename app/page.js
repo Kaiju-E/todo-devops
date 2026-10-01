@@ -14,7 +14,10 @@ export default function Home() {
     event.preventDefault();
     const text = taskText.trim();
 
-    if (!text) return;
+    if (!text) {
+  alert("Please enter a task before adding.");
+  return;
+}
 
     setTasks((current) => [
       ...current,
