@@ -43,7 +43,7 @@ export default function Home() {
       <section className="todo-card">
         <div className="header">
           <p className="label">DEVOPS APPLICATION</p>
-          <h1>ToDo Application</h1>
+          <h1>ToDo Application — Version 1.1 Development</h1>
           <p className="subtitle">
             Add, complete, and delete your tasks.
           </p>
